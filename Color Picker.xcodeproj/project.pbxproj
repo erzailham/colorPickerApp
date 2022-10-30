@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE299E86290AB08600C59A9C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE299E85290AB08600C59A9C /* ChatViewController.swift */; };
+		AE299E88290AB42400C59A9C /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE299E87290AB42400C59A9C /* ChatTableViewCell.swift */; };
+		AE299E8A290AB7C200C59A9C /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE299E89290AB7C200C59A9C /* Chat.swift */; };
+		AE299E8D290ABB9400C59A9C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE299E8B290ABB9400C59A9C /* NewViewController.swift */; };
+		AE299E8E290ABB9400C59A9C /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE299E8C290ABB9400C59A9C /* NewViewController.xib */; };
+		AE49A160290C002600461FE0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A15F290C002600461FE0 /* PhotosViewController.swift */; };
+		AE49A162290C01D000461FE0 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A161290C01D000461FE0 /* Photos.swift */; };
+		AE49A164290C035100461FE0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A163290C035100461FE0 /* PhotoCollectionViewCell.swift */; };
+		AE49A166290C08BA00461FE0 /* GojekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A165290C08BA00461FE0 /* GojekViewController.swift */; };
+		AE49A168290C0A3400461FE0 /* GojekHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A167290C0A3400461FE0 /* GojekHeaderTableViewCell.swift */; };
+		AE49A16E290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A16D290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift */; };
+		AE745EE929095EF000F43BBF /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EE829095EF000F43BBF /* FolderViewController.swift */; };
+		AE745EEB29095F4B00F43BBF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EEA29095F4B00F43BBF /* TabBarController.swift */; };
+		AE745EED290963DB00F43BBF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EEC290963DB00F43BBF /* TableViewController.swift */; };
+		AE745EEF29096B2700F43BBF /* CustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EEE29096B2700F43BBF /* CustomeTableViewCell.swift */; };
+		AE7FEB8B29080D3300091130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB8A29080D3300091130 /* AppDelegate.swift */; };
+		AE7FEB8D29080D3300091130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB8C29080D3300091130 /* SceneDelegate.swift */; };
+		AE7FEB8F29080D3300091130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB8E29080D3300091130 /* ViewController.swift */; };
+		AE7FEB9229080D3300091130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7FEB9029080D3300091130 /* Main.storyboard */; };
+		AE7FEB9429080D3400091130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7FEB9329080D3400091130 /* Assets.xcassets */; };
+		AE7FEB9729080D3400091130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7FEB9529080D3400091130 /* LaunchScreen.storyboard */; };
+		AE7FEB9F29080E4C00091130 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB9E29080E4C00091130 /* ColorPicker.swift */; };
+		AE7FEBA1290810CF00091130 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEBA0290810CF00091130 /* BViewController.swift */; };
+		AE7FEBA5290812A500091130 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEBA4290812A500091130 /* CViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE299E85290AB08600C59A9C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AE299E87290AB42400C59A9C /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		AE299E89290AB7C200C59A9C /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		AE299E8B290ABB9400C59A9C /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		AE299E8C290ABB9400C59A9C /* NewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		AE49A15F290C002600461FE0 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		AE49A161290C01D000461FE0 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		AE49A163290C035100461FE0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE49A165290C08BA00461FE0 /* GojekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojekViewController.swift; sourceTree = "<group>"; };
+		AE49A167290C0A3400461FE0 /* GojekHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojekHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		AE49A16D290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojekHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE745EE829095EF000F43BBF /* FolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; };
+		AE745EEA29095F4B00F43BBF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AE745EEC290963DB00F43BBF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AE745EEE29096B2700F43BBF /* CustomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTableViewCell.swift; sourceTree = "<group>"; };
+		AE7FEB8729080D3300091130 /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7FEB8A29080D3300091130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE7FEB8C29080D3300091130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE7FEB8E29080D3300091130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE7FEB9129080D3300091130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE7FEB9329080D3400091130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE7FEB9629080D3400091130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE7FEB9829080D3400091130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7FEB9E29080E4C00091130 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		AE7FEBA0290810CF00091130 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		AE7FEBA4290812A500091130 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE7FEB8429080D3300091130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE7FEB7E29080D3300091130 = {
+			isa = PBXGroup;
+			children = (
+				AE7FEB8929080D3300091130 /* Color Picker */,
+				AE7FEB8829080D3300091130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE7FEB8829080D3300091130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE7FEB8729080D3300091130 /* Color Picker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7FEB8929080D3300091130 /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				AE7FEB8A29080D3300091130 /* AppDelegate.swift */,
+				AE7FEB8C29080D3300091130 /* SceneDelegate.swift */,
+				AE7FEB9E29080E4C00091130 /* ColorPicker.swift */,
+				AE7FEB8E29080D3300091130 /* ViewController.swift */,
+				AE7FEBA0290810CF00091130 /* BViewController.swift */,
+				AE7FEBA4290812A500091130 /* CViewController.swift */,
+				AE745EE829095EF000F43BBF /* FolderViewController.swift */,
+				AE745EEA29095F4B00F43BBF /* TabBarController.swift */,
+				AE7FEB9029080D3300091130 /* Main.storyboard */,
+				AE745EEC290963DB00F43BBF /* TableViewController.swift */,
+				AE745EEE29096B2700F43BBF /* CustomeTableViewCell.swift */,
+				AE299E89290AB7C200C59A9C /* Chat.swift */,
+				AE299E85290AB08600C59A9C /* ChatViewController.swift */,
+				AE299E87290AB42400C59A9C /* ChatTableViewCell.swift */,
+				AE49A161290C01D000461FE0 /* Photos.swift */,
+				AE49A15F290C002600461FE0 /* PhotosViewController.swift */,
+				AE49A163290C035100461FE0 /* PhotoCollectionViewCell.swift */,
+				AE7FEB9529080D3400091130 /* LaunchScreen.storyboard */,
+				AE299E8B290ABB9400C59A9C /* NewViewController.swift */,
+				AE299E8C290ABB9400C59A9C /* NewViewController.xib */,
+				AE49A165290C08BA00461FE0 /* GojekViewController.swift */,
+				AE49A167290C0A3400461FE0 /* GojekHeaderTableViewCell.swift */,
+				AE49A16D290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift */,
+				AE7FEB9329080D3400091130 /* Assets.xcassets */,
+				AE7FEB9829080D3400091130 /* Info.plist */,
+			);
+			path = "Color Picker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE7FEB8629080D3300091130 /* Color Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7FEB9B29080D3400091130 /* Build configuration list for PBXNativeTarget "Color Picker" */;
+			buildPhases = (
+				AE7FEB8329080D3300091130 /* Sources */,
+				AE7FEB8429080D3300091130 /* Frameworks */,
+				AE7FEB8529080D3300091130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Picker";
+			productName = "Color Picker";
+			productReference = AE7FEB8729080D3300091130 /* Color Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE7FEB7F29080D3300091130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AE7FEB8629080D3300091130 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AE7FEB8229080D3300091130 /* Build configuration list for PBXProject "Color Picker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE7FEB7E29080D3300091130;
+			productRefGroup = AE7FEB8829080D3300091130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7FEB8629080D3300091130 /* Color Picker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE7FEB8529080D3300091130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7FEB9729080D3400091130 /* LaunchScreen.storyboard in Resources */,
+				AE7FEB9429080D3400091130 /* Assets.xcassets in Resources */,
+				AE7FEB9229080D3300091130 /* Main.storyboard in Resources */,
+				AE299E8E290ABB9400C59A9C /* NewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE7FEB8329080D3300091130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE299E8A290AB7C200C59A9C /* Chat.swift in Sources */,
+				AE7FEB8F29080D3300091130 /* ViewController.swift in Sources */,
+				AE745EEB29095F4B00F43BBF /* TabBarController.swift in Sources */,
+				AE299E86290AB08600C59A9C /* ChatViewController.swift in Sources */,
+				AE49A164290C035100461FE0 /* PhotoCollectionViewCell.swift in Sources */,
+				AE745EE929095EF000F43BBF /* FolderViewController.swift in Sources */,
+				AE49A162290C01D000461FE0 /* Photos.swift in Sources */,
+				AE7FEB9F29080E4C00091130 /* ColorPicker.swift in Sources */,
+				AE49A168290C0A3400461FE0 /* GojekHeaderTableViewCell.swift in Sources */,
+				AE745EEF29096B2700F43BBF /* CustomeTableViewCell.swift in Sources */,
+				AE49A16E290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift in Sources */,
+				AE49A166290C08BA00461FE0 /* GojekViewController.swift in Sources */,
+				AE7FEB8B29080D3300091130 /* AppDelegate.swift in Sources */,
+				AE7FEBA1290810CF00091130 /* BViewController.swift in Sources */,
+				AE49A160290C002600461FE0 /* PhotosViewController.swift in Sources */,
+				AE299E8D290ABB9400C59A9C /* NewViewController.swift in Sources */,
+				AE7FEBA5290812A500091130 /* CViewController.swift in Sources */,
+				AE299E88290AB42400C59A9C /* ChatTableViewCell.swift in Sources */,
+				AE745EED290963DB00F43BBF /* TableViewController.swift in Sources */,
+				AE7FEB8D29080D3300091130 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE7FEB9029080D3300091130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7FEB9129080D3300091130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE7FEB9529080D3400091130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7FEB9629080D3400091130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE7FEB9929080D3400091130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE7FEB9A29080D3400091130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE7FEB9C29080D3400091130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Color Picker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyEdusolve.Color-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE7FEB9D29080D3400091130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Color Picker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyEdusolve.Color-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE7FEB8229080D3300091130 /* Build configuration list for PBXProject "Color Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7FEB9929080D3400091130 /* Debug */,
+				AE7FEB9A29080D3400091130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7FEB9B29080D3400091130 /* Build configuration list for PBXNativeTarget "Color Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7FEB9C29080D3400091130 /* Debug */,
+				AE7FEB9D29080D3400091130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE7FEB7F29080D3300091130 /* Project object */;
+}
