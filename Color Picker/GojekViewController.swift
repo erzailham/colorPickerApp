@@ -28,7 +28,8 @@ class GojekViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "GojekHeader", for: indexPath) as! GojekHeaderTableViewCell
-        
+        let person = UIImage(named: "person1")
+        let color = UIColor(named: "Main")
         return cell
     }
     

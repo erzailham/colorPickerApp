@@ -12,6 +12,9 @@
 		AE299E8A290AB7C200C59A9C /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE299E89290AB7C200C59A9C /* Chat.swift */; };
 		AE299E8D290ABB9400C59A9C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE299E8B290ABB9400C59A9C /* NewViewController.swift */; };
 		AE299E8E290ABB9400C59A9C /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE299E8C290ABB9400C59A9C /* NewViewController.xib */; };
+		AE30F0322918A405008F3685 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30F0312918A405008F3685 /* BaseViewController.swift */; };
+		AE3B0A6A2919FA1500DB368A /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = AE3B0A692919FA1500DB368A /* SwiftyJSON */; };
+		AE3B0A6D2919FA2700DB368A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AE3B0A6C2919FA2700DB368A /* Alamofire */; };
 		AE49A160290C002600461FE0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A15F290C002600461FE0 /* PhotosViewController.swift */; };
 		AE49A162290C01D000461FE0 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A161290C01D000461FE0 /* Photos.swift */; };
 		AE49A164290C035100461FE0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49A163290C035100461FE0 /* PhotoCollectionViewCell.swift */; };
@@ -22,6 +25,8 @@
 		AE745EEB29095F4B00F43BBF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EEA29095F4B00F43BBF /* TabBarController.swift */; };
 		AE745EED290963DB00F43BBF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EEC290963DB00F43BBF /* TableViewController.swift */; };
 		AE745EEF29096B2700F43BBF /* CustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EEE29096B2700F43BBF /* CustomeTableViewCell.swift */; };
+		AE75C462291B496A0026896A /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AE75C461291B496A0026896A /* SDWebImage */; };
+		AE7F1D32291AA171001C255C /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F1D31291AA171001C255C /* Pokemon.swift */; };
 		AE7FEB8B29080D3300091130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB8A29080D3300091130 /* AppDelegate.swift */; };
 		AE7FEB8D29080D3300091130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB8C29080D3300091130 /* SceneDelegate.swift */; };
 		AE7FEB8F29080D3300091130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB8E29080D3300091130 /* ViewController.swift */; };
@@ -31,6 +36,8 @@
 		AE7FEB9F29080E4C00091130 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEB9E29080E4C00091130 /* ColorPicker.swift */; };
 		AE7FEBA1290810CF00091130 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEBA0290810CF00091130 /* BViewController.swift */; };
 		AE7FEBA5290812A500091130 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FEBA4290812A500091130 /* CViewController.swift */; };
+		AED64C17291206DB00E641AB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED64C16291206DB00E641AB /* ProfileViewController.swift */; };
+		AED64C192912084B00E641AB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED64C182912084B00E641AB /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +46,7 @@
 		AE299E89290AB7C200C59A9C /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		AE299E8B290ABB9400C59A9C /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		AE299E8C290ABB9400C59A9C /* NewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		AE30F0312918A405008F3685 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AE49A15F290C002600461FE0 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		AE49A161290C01D000461FE0 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		AE49A163290C035100461FE0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 		AE745EEA29095F4B00F43BBF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		AE745EEC290963DB00F43BBF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AE745EEE29096B2700F43BBF /* CustomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTableViewCell.swift; sourceTree = "<group>"; };
+		AE7F1D31291AA171001C255C /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		AE7FEB8729080D3300091130 /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7FEB8A29080D3300091130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE7FEB8C29080D3300091130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +69,8 @@
 		AE7FEB9E29080E4C00091130 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 		AE7FEBA0290810CF00091130 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		AE7FEBA4290812A500091130 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		AED64C16291206DB00E641AB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AED64C182912084B00E641AB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE75C462291B496A0026896A /* SDWebImage in Frameworks */,
+				AE3B0A6A2919FA1500DB368A /* SwiftyJSON in Frameworks */,
+				AE3B0A6D2919FA2700DB368A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 		AE7FEB7E29080D3300091130 = {
 			isa = PBXGroup;
 			children = (
+				AE7F1D31291AA171001C255C /* Pokemon.swift */,
 				AE7FEB8929080D3300091130 /* Color Picker */,
 				AE7FEB8829080D3300091130 /* Products */,
 			);
@@ -105,16 +120,19 @@
 				AE745EEE29096B2700F43BBF /* CustomeTableViewCell.swift */,
 				AE299E89290AB7C200C59A9C /* Chat.swift */,
 				AE299E85290AB08600C59A9C /* ChatViewController.swift */,
+				AED64C182912084B00E641AB /* String+Extension.swift */,
 				AE299E87290AB42400C59A9C /* ChatTableViewCell.swift */,
 				AE49A161290C01D000461FE0 /* Photos.swift */,
 				AE49A15F290C002600461FE0 /* PhotosViewController.swift */,
 				AE49A163290C035100461FE0 /* PhotoCollectionViewCell.swift */,
 				AE7FEB9529080D3400091130 /* LaunchScreen.storyboard */,
 				AE299E8B290ABB9400C59A9C /* NewViewController.swift */,
+				AE30F0312918A405008F3685 /* BaseViewController.swift */,
 				AE299E8C290ABB9400C59A9C /* NewViewController.xib */,
 				AE49A165290C08BA00461FE0 /* GojekViewController.swift */,
 				AE49A167290C0A3400461FE0 /* GojekHeaderTableViewCell.swift */,
 				AE49A16D290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift */,
+				AED64C16291206DB00E641AB /* ProfileViewController.swift */,
 				AE7FEB9329080D3400091130 /* Assets.xcassets */,
 				AE7FEB9829080D3400091130 /* Info.plist */,
 			);
@@ -137,6 +155,11 @@
 			dependencies = (
 			);
 			name = "Color Picker";
+			packageProductDependencies = (
+				AE3B0A692919FA1500DB368A /* SwiftyJSON */,
+				AE3B0A6C2919FA2700DB368A /* Alamofire */,
+				AE75C461291B496A0026896A /* SDWebImage */,
+			);
 			productName = "Color Picker";
 			productReference = AE7FEB8729080D3300091130 /* Color Picker.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +188,11 @@
 				Base,
 			);
 			mainGroup = AE7FEB7E29080D3300091130;
+			packageReferences = (
+				AE3B0A682919FA1500DB368A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				AE3B0A6B2919FA2700DB368A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AE75C460291B49690026896A /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = AE7FEB8829080D3300091130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,6 +224,7 @@
 				AE299E8A290AB7C200C59A9C /* Chat.swift in Sources */,
 				AE7FEB8F29080D3300091130 /* ViewController.swift in Sources */,
 				AE745EEB29095F4B00F43BBF /* TabBarController.swift in Sources */,
+				AE30F0322918A405008F3685 /* BaseViewController.swift in Sources */,
 				AE299E86290AB08600C59A9C /* ChatViewController.swift in Sources */,
 				AE49A164290C035100461FE0 /* PhotoCollectionViewCell.swift in Sources */,
 				AE745EE929095EF000F43BBF /* FolderViewController.swift in Sources */,
@@ -205,12 +234,15 @@
 				AE745EEF29096B2700F43BBF /* CustomeTableViewCell.swift in Sources */,
 				AE49A16E290C0C2B00461FE0 /* GojekHeaderCollectionViewCell.swift in Sources */,
 				AE49A166290C08BA00461FE0 /* GojekViewController.swift in Sources */,
+				AED64C192912084B00E641AB /* String+Extension.swift in Sources */,
 				AE7FEB8B29080D3300091130 /* AppDelegate.swift in Sources */,
 				AE7FEBA1290810CF00091130 /* BViewController.swift in Sources */,
 				AE49A160290C002600461FE0 /* PhotosViewController.swift in Sources */,
+				AE7F1D32291AA171001C255C /* Pokemon.swift in Sources */,
 				AE299E8D290ABB9400C59A9C /* NewViewController.swift in Sources */,
 				AE7FEBA5290812A500091130 /* CViewController.swift in Sources */,
 				AE299E88290AB42400C59A9C /* ChatTableViewCell.swift in Sources */,
+				AED64C17291206DB00E641AB /* ProfileViewController.swift in Sources */,
 				AE745EED290963DB00F43BBF /* TableViewController.swift in Sources */,
 				AE7FEB8D29080D3300091130 /* SceneDelegate.swift in Sources */,
 			);
@@ -430,6 +462,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE3B0A682919FA1500DB368A /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AE3B0A6B2919FA2700DB368A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AE75C460291B49690026896A /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE3B0A692919FA1500DB368A /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE3B0A682919FA1500DB368A /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		AE3B0A6C2919FA2700DB368A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE3B0A6B2919FA2700DB368A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AE75C461291B496A0026896A /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE75C460291B49690026896A /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE7FEB7F29080D3300091130 /* Project object */;
 }
